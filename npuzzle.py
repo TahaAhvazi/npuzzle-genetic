@@ -127,7 +127,7 @@ max_generations = 1000
 
 solution = genetic_algorithm(population_size, mutation_rate, max_generations)
 if solution:
-    print("Solution found:")
+    print("✅Solution found✅:")
     print_solution(solution)
 else:
-    print("Solution not found within the given number of generations.")
+    print("🛑The soulotion not found ! 🛑")
